@@ -1,0 +1,42 @@
+workspace - index - repositório local  - repositório remoto 
+
+git config --global user.name "nomedousuario"
+
+git config --global user.email "nomedousuario@email.com"
+
+git init 
+
+rm -rf .git (parar de rastrear o projeto)
+
+git status 
+
+git add -A 
+
+git reset (remover arquivos da staging area)
+
+git log
+
+git remote -v
+
+git branch -a 
+
+git push origin master
+
+git branch nova-funcionalidade (cria um ramo pra uma nova feature)
+
+git checkout nova-funcionalidade (reposiciona o git para o ramo nova-funcionalidade)
+
+git push -u origin nova-funcionalidade
+
+git branch -a
+
+MESCLAR UM RAMO (merge a branch)
+git checkout master (reposiciona pro ramo master)
+
+git pull origin master 
+
+git branch --merged
+
+git merge nova-funcionalidade
+
+git push origin master     
