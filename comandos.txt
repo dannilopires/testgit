@@ -16,7 +16,33 @@ git reset (remover arquivos da staging area)
 
 git log
 
+git remote add origin https://github.com/user/repo.git
+
 git remote -v
+
+You may encounter these errors when trying to add a remote.
+<<Remote name already exists>>
+
+This error means you've tried to add a remote with a name that already exists in your local repository:
+$ git remote add origin https://github.com/octocat/Spoon-Knife
+> fatal: remote origin already exists.
+
+To fix this, you can:
+- Use a different name for the new remote
+- Rename the existing remote 
+
+$ git remote -v
+# View existing remotes
+> origin  https://github.com/OWNER/REPOSITORY.git (fetch)
+> origin  https://github.com/OWNER/REPOSITORY.git (push)
+
+$ git remote rename origin destination
+# Change remote name from 'origin' to 'destination'
+
+$ git remote -v
+# Verify remote's new name
+> destination  https://github.com/OWNER/REPOSITORY.git (fetch)
+> destination  https://github.com/OWNER/REPOSITORY.git (push)
 
 git branch -a 
 
