@@ -61,7 +61,3 @@ git branch --merged
 
 git merge nova-funcionalidade
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 5a0777465a7e6438acc44c65e831a4481c182752
