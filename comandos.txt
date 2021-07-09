@@ -44,9 +44,7 @@ $ git remote -v
 > destination  https://github.com/OWNER/REPOSITORY.git (fetch)
 > destination  https://github.com/OWNER/REPOSITORY.git (push)
 
-git branch -a 
-
-git push origin master
+git branch -M main
 
 git branch nova-funcionalidade (cria um ramo pra uma nova feature)
 
@@ -59,10 +57,8 @@ git branch -a
 MESCLAR UM RAMO (merge a branch)
 git checkout master (reposiciona pro ramo master)
 
-git pull origin master 
-
 git branch --merged
 
 git merge nova-funcionalidade
 
-git push origin master     
+
