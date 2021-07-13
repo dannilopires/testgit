@@ -65,3 +65,5 @@ para reverter um commit:
 1) git log (para copiar os 7 primeiros caracteres do hash do commit que você deseja resetar)
 2) git reset <os7caractereshash>
 3) git checkout -- ./nomedoarquivo (para verificar o arquivo)
+
+git config --global init.defaultBranch main (configurar branch main como default pra qualquer projeto)
